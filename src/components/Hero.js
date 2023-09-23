@@ -9,9 +9,9 @@ const Hero = () => {
                 <div className="navbar mx-lg-5 mx-3">
                     <div className="nav-item">
                         <a href="#" className="navbar-brand">
-                        <img src={logo} width="120px" alt="Netflix" />
+                        <img src={logo} width="160px" alt="Netflix" />
                         </a>
-                        <a href="" id="signIn">See Movies</a>
+                        <a href="" id="signIn">Sign In</a>
                     </div>
                 </div>
                 {/* banner area  */}

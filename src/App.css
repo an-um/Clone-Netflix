@@ -41,12 +41,14 @@ body{
 /* navbar  */
 .navbar {
   display: block;
-  margin-left: 150px;
-    margin-right: 150px;
+  /* margin-left: 150px !important;
+    margin-right: 150px !important; */
 }
 .nav-item{
   display: flex;
   justify-content: space-between;
+  margin: 20px 150px 0px !important;
+
 }
 
 #signIn{
@@ -284,6 +286,15 @@ button.accordion-button.collapsed {
 }
 
 }
+
+
+@media (max-width: 1280px) {
+  .nav-item{
+    margin: 20px 20px 0px !important;
+  
+  }
+}
+
 
 
 /* Screen Size 478pz  */
